@@ -1,7 +1,7 @@
 ARG BUILD_FROM
 FROM $BUILD_FROM
 
-RUN apk add --no-cache py3-pip
+RUN apk add --no-cache py3-pip py3-cffi py3-cryptography
 
 WORKDIR /app
 

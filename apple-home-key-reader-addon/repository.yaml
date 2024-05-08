@@ -1,4 +1,0 @@
-name: "HA Add-ons"
-udev: "true"
-url: "https://github.com/DmitryAnanyev/homeassistant-homekey"
-maintainer: lavr

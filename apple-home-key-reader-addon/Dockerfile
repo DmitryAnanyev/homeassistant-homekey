@@ -15,5 +15,5 @@ RUN chmod a+x run.sh
 
 CMD ["/app/run.sh"]
 
-#ARG BUILD_FROM
+ARG BUILD_FROM
 RUN echo $BUILD_FROM > .build_from

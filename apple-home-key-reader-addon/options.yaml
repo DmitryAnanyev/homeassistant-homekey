@@ -1,1 +1,1 @@
-nfc_port: "usbserial-0001"
+nfc_port: "ttyACM0"

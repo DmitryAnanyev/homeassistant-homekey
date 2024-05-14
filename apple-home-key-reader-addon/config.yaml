@@ -1,13 +1,14 @@
 name: "apple-home-key-reader-addon"
 description: ""
-version: "1.0.9"
+version: "1.0.10"
 slug: "apple_home_key_reader"
 init: false
-ports:
-  51926/udp: 51926
-  51926/tcp: 51926
-  51926/udp: 51827
-  51926/tcp: 51827
+host_network: true
+#ports:
+#  51926/udp: 51926
+#  51926/tcp: 51926
+#  51926/udp: 51827
+#  51926/tcp: 51827
 arch:
   - aarch64
   - amd64

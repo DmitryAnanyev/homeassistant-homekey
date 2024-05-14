@@ -1,6 +1,6 @@
 name: "apple-home-key-reader-addon"
 description: ""
-version: "1.0.2"
+version: "1.0.3"
 slug: "apple_home_key_reader"
 init: false
 ports:

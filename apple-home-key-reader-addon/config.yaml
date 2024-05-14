@@ -4,10 +4,12 @@ version: "1.0.6"
 slug: "apple_home_key_reader"
 init: false
 ports:
-  51926/tcp: 51926
+  51926/udp: 51926
 arch:
   - aarch64
   - amd64
   - armhf
   - armv7
   - i386
+devices:
+  - /dev/ttyACM0
